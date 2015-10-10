@@ -52,8 +52,9 @@ Autotests/KeepTeamAutotests/obj/Debug/*
 *.cache
 Autotests/KeepTeamAutotests/bin/Debug/*
 Autotests/KeepTeamTests/obj/Debug/*
+Autotests/KeepTeamTests/bin/Debug/*
 Autotests/KeepScreenTests/bin/Debug/*
 Autotests/KeepScreenTests/obj/Debug/*
 .nuget/*
-packages/LumiSoft.Net.dll.4.5.5526.15200/bin/Debug/LumiSoft.Net.pdb
+packages/*
 KeepTeamAutotests.v12.suo
