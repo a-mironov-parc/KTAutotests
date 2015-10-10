@@ -159,8 +159,12 @@
     <Compile Include="AppLogic\WebDriverFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="data\candidates\candidatereq.json" />
-    <None Include="data\candidates\directoriesname.json" />
+    <None Include="data\candidates\candidatereq.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\candidates\directoriesname.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="data\employeereq.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -173,7 +177,9 @@
     <None Include="data\emails.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="data\candidates\candidate.json" />
+    <None Include="data\candidates\candidate.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="data\menu\internalmenu.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

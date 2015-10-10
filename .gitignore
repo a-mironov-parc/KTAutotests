@@ -58,3 +58,5 @@ Autotests/KeepScreenTests/obj/Debug/*
 .nuget/*
 packages/*
 KeepTeamAutotests.v12.suo
+*.pdb
+Autotests/KeepTeamTests/bin/Debug/KeepTeamTests.pdb
