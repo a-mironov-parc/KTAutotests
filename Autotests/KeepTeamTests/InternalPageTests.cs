@@ -11,7 +11,7 @@ namespace KeepTeamTests
     public class InternalPageTests: TestBase
     {
        
-        [TearDown]
+        [TearDown()]
         public void logout()
         {
             app.userHelper.logout();

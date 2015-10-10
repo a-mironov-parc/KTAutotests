@@ -4,7 +4,7 @@ using KeepTeamAutotests.AppLogic;
 
 namespace KeepTeamTests
 {
-    [SetUpFixture]
+    [SetUpFixture()]
     public class Finalizer
     {
         [TearDown]
