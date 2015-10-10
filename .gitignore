@@ -41,3 +41,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.dll
+*.png
+Autotests/KeepTeamAutotests/obj/Debug/*
+*.xml
+*.ps1
+*.exe
+*.nupkg
+*.txt
+*.cache
+Autotests/KeepTeamAutotests/bin/Debug/*
+Autotests/KeepTeamTests/obj/Debug/*
+Autotests/KeepScreenTests/bin/Debug/*
+Autotests/KeepScreenTests/obj/Debug/*
+.nuget/*
+packages/LumiSoft.Net.dll.4.5.5526.15200/bin/Debug/LumiSoft.Net.pdb
+KeepTeamAutotests.v12.suo
