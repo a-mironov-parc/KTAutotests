@@ -16,7 +16,7 @@ namespace KeepTeamTests
                 .loginAs(app.userHelper.getUserByRole("Администраторы"));
 
         }
-        [Ignore]
+        [Ignore("дополнительные столбцы")]
         [Test()]
         public void Compare_Image_Employees()
         {
