@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{589301BA-77E0-482F-8A63-566B8A6222BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KeepTeamAutotests</RootNamespace>
+    <AssemblyName>KeepTeamAutotests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LumiSoft.Net">
+      <HintPath>..\..\packages\LumiSoft.Net.dll.4.5.5526.15200\lib\net45\LumiSoft.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-AnyCPU, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Magick.NET-Q16-AnyCPU.7.0.0.0019\lib\net40-client\Magick.NET-AnyCPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET.Core, Version=7.0.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Magick.NET-Q16-AnyCPU.7.0.0.0019\lib\net40-client\Magick.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core">
+      <HintPath>..\..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>..\..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\..\packages\NUnitTestAdapter.2.0.0\lib\nunit.util.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NUnit.VisualStudio.TestAdapter">
+      <HintPath>..\..\packages\NUnitTestAdapter.2.0.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Selenium.WebDriver.2.48.0\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Selenium.Support.2.48.0\lib\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppLogic\AppManager.cs" />
+    <Compile Include="AppLogic\KPIHelper.cs" />
+    <Compile Include="AppLogic\EmailHelper.cs" />
+    <Compile Include="AppLogic\HiringHelper.cs" />
+    <Compile Include="AppLogic\FilterHelper.cs" />
+    <Compile Include="AppLogic\ScreenHelper.cs" />
+    <Compile Include="AppLogic\FileHelper.cs" />
+    <Compile Include="AppLogic\AssetHelper.cs" />
+    <Compile Include="AppLogic\TimeOffHelper.cs" />
+    <Compile Include="AppLogic\EmployeeHelper.cs" />
+    <Compile Include="AppLogic\HintHelper.cs" />
+    <Compile Include="AppLogic\CommentHelper.cs" />
+    <Compile Include="AppLogic\UserHelper.cs" />
+    <Compile Include="AppLogic\ImageHelper.cs" />
+    <Compile Include="Menues\BaseMenu.cs" />
+    <Compile Include="Menues\InternalMenu.cs" />
+    <Compile Include="Menues\SettingMenu.cs" />
+    <Compile Include="Menues\ExternalMenu.cs" />
+    <Compile Include="Model\Comment.cs" />
+    <Compile Include="Model\Hint.cs" />
+    <Compile Include="Model\KPI.cs" />
+    <Compile Include="Model\Email.cs" />
+    <Compile Include="Model\Candidate.cs" />
+    <Compile Include="Model\Vacancy.cs" />
+    <Compile Include="Model\Asset.cs" />
+    <Compile Include="Model\Filter.cs" />
+    <Compile Include="Model\TimeOff.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\SimpleString.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Pages\Candidate\CommentsTab.cs" />
+    <Compile Include="Pages\FiltersPage.cs" />
+    <Compile Include="Pages\ContextMenuPage.cs" />
+    <Compile Include="Pages\GeneralSettings\GeneralSettingsPage.cs" />
+    <Compile Include="Pages\Dictionaries\DictionariesPage.cs" />
+    <Compile Include="Pages\GeneralSettings\NewTariffPopup.cs" />
+    <Compile Include="Pages\PersonalKPI\NewKPIPopup.cs" />
+    <Compile Include="Pages\PersonalKPI\PersonalKPIPage.cs" />
+    <Compile Include="Pages\PersonalInfo\AddressHomePage.cs" />
+    <Compile Include="Pages\CommonPage.cs" />
+    <Compile Include="Pages\PersonalInfo\SkillsPage.cs" />
+    <Compile Include="Pages\PersonalInfo\EducationPopup.cs" />
+    <Compile Include="Pages\PersonalInfo\EducationPage.cs" />
+    <Compile Include="Pages\PersonalInfo\DocumentsPopup.cs" />
+    <Compile Include="Pages\PersonalInfo\ContactsPage.cs" />
+    <Compile Include="Pages\PersonalAsset\NewAssetPopup.cs" />
+    <Compile Include="Pages\PersonalAsset\PersonalAssetPage.cs" />
+    <Compile Include="Pages\Photo\DeleteEmployeePopup.cs" />
+    <Compile Include="Pages\Page.cs" />
+    <Compile Include="Pages\PageManager.cs" />
+    <Compile Include="Pages\PersonalTimeOff\NewTimeOffPopup.cs" />
+    <Compile Include="Pages\Dashboard\DashboardPage.cs" />
+    <Compile Include="Pages\PersonalInfo\DocumentsPage.cs" />
+    <Compile Include="Pages\PersonalInfo\AddressRegistrationPage.cs" />
+    <Compile Include="Pages\Photo\PhotoEmployeePage.cs" />
+    <Compile Include="Pages\PersonalInfo\RelativesPage.cs" />
+    <Compile Include="Pages\DeleteMessagePage.cs" />
+    <Compile Include="Pages\PopupPage.cs" />
+    <Compile Include="Pages\PersonalTimeOff\PersonalTimeOffPage.cs" />
+    <Compile Include="Pages\PersonalInfo\PersonalInfoPage.cs" />
+    <Compile Include="Pages\PersonalPage.cs" />
+    <Compile Include="Pages\EmployeesPage.cs" />
+    <Compile Include="Pages\Login\LoginPage.cs" />
+    <Compile Include="Pages\Candidate\NewCandidatePopup.cs" />
+    <Compile Include="Pages\Candidate\CandidatePage.cs" />
+    <Compile Include="Pages\TimeOff\CalendarTimeOffPage.cs" />
+    <Compile Include="Pages\Users\NewUserPopup.cs" />
+    <Compile Include="Pages\Users\UsersPage.cs" />
+    <Compile Include="Pages\Vacancy\NewVacancyPopup.cs" />
+    <Compile Include="Pages\Vacancy\VacancyPage.cs" />
+    <Compile Include="Pages\WorkInfo\BonusesPage.cs" />
+    <Compile Include="Pages\WorkInfo\PaymentPage.cs" />
+    <Compile Include="Pages\WorkInfo\WorkHistoryPage.cs" />
+    <Compile Include="Pages\WorkInfo\WorkHistoryPopup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppLogic\WebDriverFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\candidates\candidatereq.json" />
+    <None Include="data\candidates\directoriesname.json" />
+    <None Include="data\employeereq.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\hints.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\kpi.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\emails.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\candidates\candidate.json" />
+    <None Include="data\menu\internalmenu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\contactsreq.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\relativesreq.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\comments.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\vacancy.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\dictionaries\dictionaries.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\addressregistration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\timeofftype.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\documentstype.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\education.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\documents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\contacts.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\assets.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\filters\maritalstatusfilter.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\filters\departmentfilter.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\filters\workfilter.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\timeoffs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\skills.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\personalinfo\relatives.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\employee.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\menu\settingmenu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\login\loginincorrect.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\user.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\menu\menu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\workinfo\workhistorytype.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup Label="DownloadChromeDriverBuildTask">
+    <CoreBuildDependsOn>DownloadChromeDriver;$(CoreBuildDependsOn)</CoreBuildDependsOn>
+    <ChromeDriverInstallPath>$(SolutionDir)packages\Selenium.WebDriver.ChromeDriver.2.10.0.0\</ChromeDriverInstallPath>
+    <ChromeDriverToolsPath>$(ChromeDriverInstallPath)tools\</ChromeDriverToolsPath>
+    <ChromeDriverInitScriptPath>$(ChromeDriverToolsPath)Init.ps1</ChromeDriverInitScriptPath>
+    <ChromeDriverPath>$(ChromeDriverInstallPath)content\chromedriver.exe</ChromeDriverPath>
+    <PowerShellExe Condition="'$(PowerShellExe)'==''">%WINDIR%\System32\WindowsPowerShell\v1.0\powershell.exe</PowerShellExe>
+  </PropertyGroup>
+  <Target Name="DownloadChromeDriver" Label="DownloadChromeDriverBuildTask">
+    <Exec Condition="!Exists('$(ChromeDriverPath)')" Command="$(PowerShellExe) -NonInteractive -executionpolicy Unrestricted -command &quot;&amp; { &amp;'$(ChromeDriverInitScriptPath)' '$(ChromeDriverInstallPath)' '$(ChromeDriverToolsPath)'} &quot;" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
