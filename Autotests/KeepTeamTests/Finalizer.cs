@@ -4,10 +4,10 @@ using KeepTeamAutotests.AppLogic;
 
 namespace KeepTeamTests
 {
-    [SetUpFixture()]
+    [SetUpFixture]
     public class Finalizer
     {
-        [TearDown]
+        [OneTimeTearDown]
         public void RunInTheEndOfAll()
         {
             WebDriverFactory.DismissAll();
