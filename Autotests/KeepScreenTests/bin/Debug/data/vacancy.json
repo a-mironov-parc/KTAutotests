@@ -1,0 +1,39 @@
+﻿ [
+
+
+    {
+        "VacName": "В",
+        "VacDepartment": "Casebook",
+
+        "VacFilial": "Филиал",
+        "VacLink": "http://vacancy.com",
+        "VacResponsibilities": "Обязанности",
+        "VacConditions": "Условия",
+        "VacRequirements": "Требования"
+
+    },
+    {
+        "VacName": "!@#$%^&*()_+|-=|?",
+        "VacDepartment": "Casebook",    
+          
+        "VacFilial": "Филиал",
+        "VacLink": "http://vacancy.com",
+        "VacResponsibilities": "Обязанности",
+        "VacConditions": "Условия",
+        "VacRequirements": "Требования"
+
+    },
+     {
+        "VacName": "Название Вакансии более 100 символов длинное длинное название длинное длинное название",
+        "VacDepartment": "Casebook",    
+          
+        "VacFilial": "Филиал",
+        "VacLink": "http://vacancy.com",
+        "VacResponsibilities": "Обязанности",
+        "VacConditions": "Условия",
+        "VacRequirements": "Требования"
+
+    }
+    
+    
+]

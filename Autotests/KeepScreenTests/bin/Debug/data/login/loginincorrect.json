@@ -1,0 +1,36 @@
+﻿ [
+
+    {
+        "login": "testtest@testestetst.ru",
+        "password": "123123",
+        "role": "Пользователь с данным адресом email не существует."
+
+    },
+    {
+        "login": "testkeepteam8@yandex.ru",
+        "password": "123123",
+        "role": "Доступ закрыт"
+
+    },
+    {
+        "login": "",
+        "password": "123123",
+        "role": "Необходимо заполнить поле"
+
+    },
+    {
+        "login": "abrakadabra",
+        "password": "",
+        "role": "Введен email неверного формата"
+            
+     },
+    {
+        "login": "testkeepteam1@yandex.ru",
+        "password": "12312",
+        "role": "Введен неверный пароль"
+
+    }
+   
+    
+    
+]

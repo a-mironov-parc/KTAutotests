@@ -1,0 +1,22 @@
+﻿ [
+
+
+    {
+        "lastname": "Адрес регистрации",
+        "name": "Адрес регистрации",
+        "status": "Работает",
+        "arcountry": "Россия",
+        "arpostcode": "4",
+        "arregion": "Самарская",
+        "arcity": "Самара",
+        "arstreet": "Улица",
+        "arhouse": "Дом",
+        "arblock": "Блок",
+        "arbuilding": "Строение",
+        "arflat": "Квартира",
+        "arregistrationdate": "01.01.1970"
+        
+
+    }  
+    
+]

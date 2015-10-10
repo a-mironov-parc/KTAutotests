@@ -1,0 +1,44 @@
+﻿ [
+
+
+    {
+        "KPIName": "Название KPI",
+        "KPIDate": "01.01.1970",
+        "KPIEmployee": "Сотрудник 21 KPI",
+        "KPIDescription": "Описание цели KPI",
+        "KPIActions": "Действия",
+        "KPIMeasuring": "Измерение"
+    },
+    {
+        "KPIName": "И",
+        "KPIEmployee": "Описание цели KPI",
+        "KPIDate": "01.01.1970",
+        "KPIEmployee": "Сотрудник 21 KPI",
+        "KPIActions": "Действия",
+        "KPIMeasuring": "Измерение",
+        "KPIProgress" : "30"
+    },
+
+    {
+        "KPIName": "Название KPI более 100 символов длинное длинное название длинное длинное название",
+        "KPIDate": "01.01.1970",
+        "KPIEmployee": "Сотрудник 21 KPI",
+        "KPIActions": "Действия",
+        "KPIMeasuring": "Измерение"
+    },
+    {
+        "KPIName": "Полный KPI",
+        "KPIDate": "01.01.1970",
+        "KPIEmployee": "Сотрудник 21 KPI",
+        "KPIDescription": "КПИ описание",
+        "KPIProgress" : "100",
+        "KPIMeasuring": "Измерение",
+        "KPIActions": "Действия"
+        
+    }
+
+    
+    
+    
+    
+]

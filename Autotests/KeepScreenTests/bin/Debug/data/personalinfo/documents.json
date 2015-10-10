@@ -1,0 +1,57 @@
+﻿ [
+
+
+    {
+        "lastname": "Документы",
+        "name": "Создание паспорта",
+        "status": "Работает",
+        "typeDoc": "Паспорт",
+        "seriesDoc": "Серия и номер",
+        "dateDoc": "01.02.1970",
+        "authorDoc": "Выдан ОВД",
+        "codeDoc": "0102102",
+        "descriptionDoc": "примечание"
+
+    },
+     {
+        "lastname": "Документы",
+        "name": "Создание СНИЛС",
+        "status": "Работает",
+        "typeDoc": "СНИЛС",
+        "seriesDoc": "Номер",
+        "dateDoc": "01.02.1970",
+        "descriptionDoc": "примечание"
+    },
+    {
+        "lastname": "Документы",
+        "name": "Создание военного билета",
+        "status": "Работает",
+        "typeDoc": "Военный билет",
+        "seriesDoc": "Серия и номер",
+        "dateDoc": "01.02.1970",
+        "authorDoc": "Выдан ОВД",
+        "descriptionDoc": "примечание"
+
+    },
+    {
+        "lastname": "Документы",
+        "name": "Создание Трудовой книжки",
+        "status": "Работает",
+        "typeDoc": "Трудовая книжка",
+        "seriesDoc": "Серия и номер",
+        "dateDoc": "01.02.1970",
+        "authorDoc": "Выдан ОВД",
+        "descriptionDoc": "примечание"
+
+    },
+     {
+        "lastname": "Документы",
+        "name": "Создание ИНН",
+        "status": "Работает",
+        "typeDoc": "ИНН",
+        "seriesDoc": "Номер",
+        "dateDoc": "01.02.1970",
+        "descriptionDoc": "примечание"
+    } 
+    
+]

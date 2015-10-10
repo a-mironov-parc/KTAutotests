@@ -1,0 +1,13 @@
+﻿ [
+
+
+    {
+        "lastname": "Фамилия",
+        "name": "Навыки",
+        "skillName": "Angular",
+        "skillLevel": "3",
+        "skillDescription": "Описание навыка"
+
+    }
+    
+]

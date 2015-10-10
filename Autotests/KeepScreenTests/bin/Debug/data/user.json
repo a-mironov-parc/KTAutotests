@@ -1,0 +1,202 @@
+﻿ [
+   
+    {
+        "login": "user1@user.ru",
+        "password": "123123",
+        "email": "test1@mailinator.com",
+        "role": "Супер администратор"
+            
+     },
+    {
+        "login": "testkeepteam1@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam1@yandex.ru",
+        "role": "Администраторы"
+
+    },
+    {
+        "login": "testkeepteam2@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam2@yandex.ru",
+        "role": "pGeneralInfoRW"
+
+    },
+    {
+        "login": "testkeepteam3@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam3@yandex.ru",
+        "role": "pFamilyRW"
+
+    },
+    {
+        "login": "testkeepteam4@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam4@yandex.ru",
+        "role": "pDocumentsRW"
+
+    },
+    {
+        "login": "testkeepteam5@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam5@yandex.ru",
+        "role": "pRegistrationAddressRW"
+    },
+    {
+        "login": "testkeepteam6@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam6@yandex.ru",
+        "role": "pHomeAddressRW"
+
+    },
+
+    {
+        "login": "testkeepteam7@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam7@yandex.ru",
+        "role": "pContactsRW"
+
+
+    },
+    {
+        "login": "testkeepteam9@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam9@yandex.ru",
+        "role": "pTimeOffsRW"
+
+    },
+    {
+        "login": "testkeepteam10@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam10@yandex.ru",
+        "role": "pSkillsRW"
+
+    },
+    {
+        "login": "testkeepteam11@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam11@yandex.ru",
+        "role": "pAssetsRW"
+
+    },
+    {
+        "login": "testkeepteam12@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam12@yandex.ru",
+        "role": "Filters"
+
+    },
+    {
+        "login": "testkeepteam13@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam13@yandex.ru",
+        "role": "pEducationRW"
+
+    },
+    {
+        "login": "testkeepteam14@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam14@yandex.ru",
+        "role": "pWorkHistoryRW"
+
+    },
+    {
+        "login": "testkeepteam15@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam15@yandex.ru",
+        "role": "aDictionariesRW"
+
+    },
+    {
+        "login": "testkeepteam16@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam16@yandex.ru",
+        "role": "aVacancyRW"
+
+    },
+    {
+        "login": "testkeepteam17@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam17@yandex.ru",
+        "role": "aUsersRW"
+
+    },
+    {
+        "login": "testkeepteam18@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam18@yandex.ru",
+        "role": "aCandidatesRW"
+
+    },
+    {
+        "login": "testkeepteam19@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam19@yandex.ru",
+        "role": "aTimeOffsRW"
+
+    },
+    {
+        "login": "testkeepteam20@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam20@yandex.ru",
+        "role": "aGeneralSettingRW"
+
+    },
+    {
+        "login": "testkeepteam21@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam21@yandex.ru",
+        "role": "pKPIRW"
+
+    },
+    {
+        "login": "testkeepteam22@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam22@yandex.ru",
+        "role": "personalRW"
+
+    },
+    {
+        "login": "testkeepteam23@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam23@yandex.ru",
+        "role": "aKPIRW"
+
+    },
+
+    {
+        "login": "testkeepteam24@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam24@yandex.ru",
+        "role": "aAssetRW"
+
+    },
+    {
+        "login": "testkeepteam25@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam25@yandex.ru",
+        "role": "aHintsRW"
+
+    },
+    {
+        "login": "testkeepteam26@yandex.ru",
+        "password": "123123",
+        "email": "testkeepteam26@yandex.ru",
+        "role": "pPersonalCustomFieldsRW"
+
+    },
+    {
+        "login": "test@4testers-smesters.ru.ru",
+        "password": "123123",
+        "email": "test@4testers-smesters.ru.ru",
+        "role": "Сотрудники"
+
+    }
+   
+        
+   
+        
+    
+    
+    
+    
+]
