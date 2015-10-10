@@ -1,0 +1,43 @@
+ [
+   
+    {
+        "MenuName": "СПРАВОЧНИКИ",
+        "URL":"/#/settings/dictionaries"
+     },
+    {
+        "MenuName": "ГРУППЫ И ПРАВА",
+        "URL": "/#/settings/groups"
+
+    },
+    {
+        "MenuName": "ПОЛЬЗОВАТЕЛИ",
+        "URL": "/#/settings/users"
+
+    },
+    {
+        "MenuName": "ШАБЛОНЫ ДОКУМЕНТОВ",
+        "URL": "/#/settings/templates"
+
+    },
+    {
+        "MenuName": "УВЕДОМЛЕНИЯ",
+        "URL": "/#/settings/notifications"
+
+    },
+    {
+        "MenuName": "ПРАЗДНИКИ",
+        "URL": "/#/settings/calendar"
+
+    },
+    {
+        "MenuName": "ОСНОВНОЕ",
+        "URL": "/#/settings/main"
+
+    },
+    {
+        "MenuName": "ПОЛЯ",
+        "URL": "/#/settings/custom_fields"
+
+    }
+    
+]

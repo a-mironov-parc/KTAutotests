@@ -1,0 +1,19 @@
+﻿ [
+
+
+    {
+        "lastname": "Образование",
+        "name": "Добавление образования",
+        "status": "Работает",
+        "yearEdu": "2010",
+        "universityEdu": "СамГТУ",
+        "specialityEdu": "220100 Вычислительные машины, комплексы, системы и сети",
+        "typeEdu": "MBA",
+        "diplomaNumberEdu": "Номер диплома",
+        "qualificationEdu": "Инженер",
+        "descriptionEdu":"Примечание"
+ 
+    }  
+        
+
+]

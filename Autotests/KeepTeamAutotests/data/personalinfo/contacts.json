@@ -1,0 +1,14 @@
+﻿ [
+
+
+    {
+        "lastname": "Контакты",
+        "name": "почта",
+        "status": "Работает",
+        "conType": "Facebook",
+        "conValue": "Значение поля контакты",
+        "conDescription": "Примечание"
+    }
+    
+    
+]

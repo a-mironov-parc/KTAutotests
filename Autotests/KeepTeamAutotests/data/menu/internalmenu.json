@@ -1,0 +1,44 @@
+ [
+   
+    {
+        "MenuName": "ОБЩЕЕ",
+        "URL":"/#/employees/dash/"
+     },
+    {
+        "MenuName": "СОБЫТИЯ",
+        "URL": "/#/employees/feed/"
+
+    },
+    {
+        "MenuName": "ЛИЧНАЯ ИНФОРМАЦИЯ",
+        "URL": "/#/employees/personal/"
+
+    },
+    {
+        "MenuName": "РАБОЧАЯ ИНФОРМАЦИЯ",
+        "URL": "/#/employees/job/"
+
+    },
+    {
+        "MenuName": "ОТПУСКА И ОТГУЛЫ",
+        "URL": "/#/employees/time_off/"
+
+    },
+     {
+        "MenuName": "ИНВЕНТАРЬ",
+        "URL": "/#/employees/asset/"
+
+    },
+    {
+        "MenuName": "ФАЙЛЫ",
+        "URL": "/#/employees/files/"
+
+    },
+    {
+        "MenuName": "KPI",
+        "URL": "/#/employees/kpis/"
+
+    }
+   
+    
+]

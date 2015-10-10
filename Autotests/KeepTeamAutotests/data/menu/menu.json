@@ -1,0 +1,52 @@
+ [
+   
+    {
+        "MenuName": "СОБЫТИЯ",
+        "URL":"/#/feed/list"
+     },
+    {
+        "MenuName": "СОТРУДНИКИ",
+        "URL": "/#/employees/list"
+
+    },
+    {
+        "MenuName": "ОТПУСКА И ОТГУЛЫ",
+        "URL": "/#/time_offs/list"
+
+    },
+    {
+        "MenuName": "ИНВЕНТАРЬ",
+        "URL": "/#/assets/list"
+
+    },
+    {
+        "MenuName": "ФАЙЛЫ",
+        "URL": "/#/files/list"
+
+    },
+     {
+        "MenuName": "ОТЧЕТЫ",
+        "URL": "/#/reports/"
+
+    },
+    {
+        "MenuName": "ВАКАНСИИ",
+        "URL": "/#/vacancies/list"
+
+    },
+    {
+        "MenuName": "БАЗА СОИСКАТЕЛЕЙ",
+        "URL": "/#/applicants/list/all"
+
+    },
+    {
+        "MenuName": "KPI",
+        "URL": "/#/kpis/list"
+    },
+    {
+        "MenuName": "НАСТРОЙКИ",
+        "URL": "/#/settings/"
+
+    }
+    
+]

@@ -1,0 +1,13 @@
+[
+
+    {
+        "DefaultText": "Работает",
+        "CurrentText": "Работает",
+        "ClearText": "Любой статус"
+    },
+    {
+        "DefaultText": "Работает",
+        "CurrentText": "Не работает",
+        "ClearText": "Любой статус"
+    }
+]

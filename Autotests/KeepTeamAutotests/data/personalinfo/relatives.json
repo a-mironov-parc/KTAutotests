@@ -1,0 +1,24 @@
+﻿ [
+
+
+    {
+        "lastname": "Брат",
+        "name": "Явтофамилия",
+        "status": "Работает",
+        "relation": "Брат",
+        "relLastName": "Явтофамилия",
+        "relName": "имя брата",
+        "relPatronymic": "Отчество брата",
+        "relBirthday": "01.01.1970"
+
+    },
+    {
+        "lastname": "Брат",
+        "name": "Явтофамилия1",
+        "relLastName": "Явтофамилия",
+        "relName": "имя брата",
+        "relation": "Сестра"
+    }
+  
+    
+]
