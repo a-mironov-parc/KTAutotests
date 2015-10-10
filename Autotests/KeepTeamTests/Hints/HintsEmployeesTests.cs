@@ -20,7 +20,7 @@ namespace KeepTeamTests
                      .loginAs(app.userHelper.getUserByRole("aHintsRW"));
        
         }
-        [Ignore]
+        [Ignore("тест подсказок")]
        // тест для проверки первой подсказки
        [Test, TestCaseSource(typeof(FileHelper), "hints")]
        public void Hints_Employees(Hint hint)

@@ -17,7 +17,7 @@ namespace KeepTeamTests
                   .loginAs(app.userHelper.getUserByRole("pTimeOffsRW"));
 
         }
-        [Ignore]
+        [Ignore("Тест email")]
         [Test, TestCaseSource(typeof(FileHelper), "emailtimeoffs")]
         public void Email_Create_TimeOffs(TimeOff timeoff)
         {

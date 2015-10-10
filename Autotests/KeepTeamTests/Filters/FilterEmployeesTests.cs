@@ -20,7 +20,7 @@ namespace KeepTeamTests
           // app.userHelper.setAllFilters(); 
          
         }
-        [Ignore]
+        [Ignore("Фильтр в сотрудниках")]
         // статус работает
         [Test()]
         public void Filter_Work_Employees()
@@ -35,7 +35,7 @@ namespace KeepTeamTests
            // Assert.IsTrue(app.employeeHelper.CompareStatus("Работает", testEmployee.status));
             Assert.AreEqual("Работает", testEmployee.status);
         }
-        [Ignore]
+        [Ignore("Категория подразделения")]
         [Test()]
         //Фильтр по подразделению
         public void Filter_Department_Employees()
@@ -46,8 +46,8 @@ namespace KeepTeamTests
             Employee testEmployee = app.employeeHelper.getEmployeefromTable();
             Assert.AreEqual("Keepteam", testEmployee.department);
         }
-     
-        [Ignore]// надо решить как добавить фильтры, которых нету
+
+        [Ignore("надо решить как добавить фильтры, которых нету")]
         [Test, TestCaseSource(typeof(FileHelper), "maritalstatusfilter")]
         public void Maritalstatus_Employees_Filter(Filter maritalstatusfilter)
         {
@@ -61,7 +61,7 @@ namespace KeepTeamTests
             // Assert.IsTrue(app.employeeHelper.CompareStatus("Работает", testEmployee.status));
             Assert.AreEqual(maritalstatusfilter.CurrentText, testEmployee.maritalstatus);
         }
-        [Ignore]
+        [Ignore("фильтр по подразделению")]
         [Test, TestCaseSource(typeof(FileHelper), "departmentfilter")]
         public void Department_Employees_Filter(Filter departmentfilter)
         {

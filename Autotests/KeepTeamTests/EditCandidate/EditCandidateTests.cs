@@ -50,7 +50,7 @@ namespace KeepTeamTests
             Assert.AreEqual(app.userHelper.EMPTYINPUTMSG, app.userHelper.getValidationMessage());
 
         }
-        [Ignore]
+        [Ignore("Добавление комментариев")]
         [Test, TestCaseSource(typeof(FileHelper), "comments")]
         public void Edit_Candidate_Comment(Comment comment)
         { 

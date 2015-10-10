@@ -32,7 +32,7 @@ namespace KeepTeamTests
             
             Assert.AreEqual("Компьютер", testAsset.ASCategory);
         }
-        [Ignore]
+        [Ignore("фильтр в инвентаре")]
         [Test()]
         public void Filter_Date_AssetPersonal()
         {

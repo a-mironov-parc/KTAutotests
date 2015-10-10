@@ -21,7 +21,7 @@ namespace KeepTeamTests
          
         }
         
-        [Ignore]
+        [Ignore("Категория в инвентаре")]
         [Test()]
        public void Filter_Category_Assets()
         {
